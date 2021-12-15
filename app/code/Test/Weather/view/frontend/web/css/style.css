@@ -1,0 +1,11 @@
+.online-select {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.page-footer .customer-welcome {
+    display: flex;
+    width: 100%;
+}

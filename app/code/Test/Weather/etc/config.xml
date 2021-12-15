@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <api>
+            <configuration>
+                <url>https://weatherbit-v1-mashape.p.rapidapi.com/current?</url>
+                <key>d8c3e6e176msha558e51ca212621p1ba6e5jsn8cbdaf0b6d70</key>
+                <lat>50.0121</lat>
+                <lan>20.985842</lan>
+            </configuration>
+        </api>
+    </default>
+</config>

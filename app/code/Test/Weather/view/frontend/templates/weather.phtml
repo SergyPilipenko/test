@@ -1,0 +1,28 @@
+<?php
+/** @var $block \Magento\Framework\View\Element\Template */
+?>
+<div class="customer-welcome">
+        <div
+            class="action online-select"
+            data-action="customer-menu-toggle"
+            data-bind="scope: 'example-scope'"
+            >
+            <span data-bind="text: customSection().description" ></span>
+             <br/>
+            <span data-bind="text: customSection().temperature" ></span>
+        </div>
+
+    </div>
+<script type="text/x-magento-init">
+{
+    "*": {
+        "Magento_Ui/js/core/app": {
+            "components": {
+                "example-scope": {
+                    "component": "Test_Weather/js/weather"
+                   }
+            }
+        }
+    }
+}
+</script>
